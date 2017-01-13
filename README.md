@@ -16,7 +16,7 @@ export hdp_ver=2.5
 
 export install_nifidemo=true 
 
-export install_iotdemo=true 
+export install_iotdemo=false 
 
 curl -sSL https://raw.githubusercontent.com/aengusrooneyhortonworks/HadoopClusterBuild/master/ambari_deploy_hdp.sh | sudo -E sh 
 
