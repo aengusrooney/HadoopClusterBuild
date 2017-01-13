@@ -9,7 +9,7 @@ set -o pipefail
 # source at http://github.com/seanorama/ambari-bootstrap
 #
 # Download and run as root or with sudo. Or alternatively:
-#   curl -sSL https://raw.githubusercontent.com/seanorama/ambari-bootstrap/master/ambari-bootstrap.sh | sudo -E sh
+#   curl -sSL https://raw.githubusercontent.com/aengusrooneyhortonworks/HadoopClusterBuild/master/ambari-bootstrap.sh | sudo -E sh
 #
 # defaults can be overriden by setting variables in the environment:
 #   For example:
