@@ -1,8 +1,8 @@
-# Script to install HDP 2.5, Nifi 1.0, Zeppein with Truckin demo and Nifi-Twitter demo. Run below command to kick off:  
-#curl -sSL https://gist.github.com/abajwa-hw/3f2e211d252bba6cad6a6735f78a4a93/raw | sudo -E sh
+# Script to install HDP 2.5, Nifi 1.0, Zeppein with Truck demo and Nifi-Twitter demo. Run below command to kick off:  
+# curl -sSL https://raw.githubusercontent.com/aengusrooneyhortonworks/HadoopClusterBuild/master/deploy_hdp.sh | sudo -E sh
 
 #To run on multinode: run below on non-ambariserver nodes first
-#export ambari_server=<FQDN of host running ambari-server>; export ambari_version=2.4.1.0; curl -sSL https://raw.githubusercontent.com/seanorama/ambari-bootstrap/master/ambari-bootstrap.sh | sudo -E sh ;
+#export ambari_server=<FQDN of host running ambari-server>; export ambari_version=2.4.2.0; curl -sSL https://raw.githubusercontent.com/seanorama/ambari-bootstrap/master/ambari-bootstrap.sh | sudo -E sh ;
 
 
 rm -rf ~/ambari-bootstrap
@@ -37,9 +37,9 @@ fi
 
 
 export install_ambari_server=true
-export ambari_version=2.4.1.0
+export ambari_version=2.4.2.0
 
-# java7 doesn't work with ambari 2.4.1 (at least on RHEL7)
+# java7 doesn't work with ambari 2.4.2 (at least on RHEL7)
 #if [ "${hdp_ver}" = "2.4" ]; then
 #	export java_version=7
 #fi
